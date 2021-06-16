@@ -6,6 +6,8 @@ import java.util.List;
 
 @Mapper
 public interface MainMapper {
-    List<LocationCodeEntity> selLocationCodeList();
-
+    List<LocationCodeEntity> selLocationCodeList(SearchDTO searchDTO);
+    List<ApartmentEntity> selApartmentInfoList(SearchDTO searchDTO);
+    int insApartment(InsertEntity param);
+    List<ApartmentDTO> selApartmentList(SearchDTO param);
 }

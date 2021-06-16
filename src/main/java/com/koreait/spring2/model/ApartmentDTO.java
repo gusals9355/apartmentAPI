@@ -3,9 +3,9 @@ package com.koreait.spring2.model;
 import lombok.Data;
 
 @Data
-public class ApartmentInfoEntity {
+public class ApartmentDTO {
     private int i_ai;
-    private int deal_amount;
+    private String deal_amount;
     private String build_year;
     private String deal_year;
     private String deal_month;
@@ -16,4 +16,5 @@ public class ApartmentInfoEntity {
     private String jibun;
     private int flr;
     private int location_cd;
+    private String local_nm;
 }

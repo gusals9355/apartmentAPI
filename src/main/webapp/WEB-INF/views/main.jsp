@@ -24,8 +24,9 @@
             지역: 대구시
             <select name="ex_cd">
                 <c:forEach var="local" items="${list}">
-                    <option value="${local.local_nm}">${local.local_nm}</option>
+                    <option value="${local.ex_cd}">${local.local_nm}</option>
                 </c:forEach>
+
             </select>
         </div>
         <div>
